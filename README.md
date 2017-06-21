@@ -10,6 +10,7 @@ https://rally.readthedocs.io/en/0.0.4/stories/nova/boot_server.html
 
 However, it seems like in the latest versions of Openstack 
 some functionaluty associated with eventlet_server is deprecated. So it's not possible to repear the tutorial part that says
+
 '''
 1. increasing public_workers/admin_workers values in keystone.conf file
 '''
