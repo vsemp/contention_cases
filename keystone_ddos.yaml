@@ -1,0 +1,11 @@
+---
+  Authenticate.keystone:
+  -
+    runner:
+      type: "rps"
+      times: 6000
+      rps: 50
+    context:
+      users:
+        tenants: 5
+        users_per_tenant: 10
